@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片-经典国产剧场</title>
+  <meta name="description" content="搜索经典国产电视剧、经典影片合集、全集播放内容与剧集片库。">
+  <meta name="keywords" content="经典国产电视剧,国产电视剧,经典剧集,全集播放,高分国产剧,电视剧合集,剧集片库,搜索影片,影片检索">
+  <link rel="stylesheet" href="./assets/css/theme-base.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="./index.html" aria-label="经典国产剧场">
+        <span class="brand-mark">▶</span>
+        <span>经典国产剧场</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+          <a href="./index.html">首页</a>
+          <a href="./categories.html">分类</a>
+          <a href="./ranking.html">排行榜</a>
+          <a href="./category/classic-drama.html">经典剧场</a>
+          <a href="./category/high-score.html">高分精选</a>
+          <a href="./search.html">搜索</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-form" action="./search.html" method="get">
+          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 21l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"></circle>
+        </svg>
+          <input type="search" name="q" placeholder="搜索影片...">
+        </form>
+        <button class="menu-toggle" type="button" data-mobile-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+      </div>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <nav aria-label="移动导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">排行榜</a>
+        <a href="./category/classic-drama.html">经典剧场</a>
+        <a href="./category/high-score.html">高分精选</a>
+        <a href="./search.html">搜索</a>
+      </nav>
+      <form class="search-form" action="./search.html" method="get">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 21l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"></circle>
+        </svg>
+        <input type="search" name="q" placeholder="搜索影片...">
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container page-title">
+      <h1 data-search-title>搜索影片</h1>
+      <p>输入影片名、类型、年份、地区或关键词，快速定位想看的内容。</p>
+      <form class="filter-bar" data-search-page-form>
+        <input type="search" data-search-page-input placeholder="输入关键词">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="movie-grid search-page-results" data-search-results></div>
+      <div class="empty-state" data-search-empty>请输入关键词或尝试其他片名、题材、年份。</div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h2>经典国产剧场</h2>
+        <p>经典国产电视剧栏目汇集不同年代的国产剧集，覆盖家庭、年代、都市等题材。精选多题材影视内容，提供清晰导航、分类片库与流畅播放入口。</p>
+      </div>
+      <div>
+        <h3>分类导航</h3>
+        <ul>
+          <li><a href="./category/classic-drama.html">经典剧场</a></li>
+          <li><a href="./category/high-score.html">高分精选</a></li>
+          <li><a href="./category/family-stories.html">家庭年代</a></li>
+          <li><a href="./category/urban-love.html">都市爱情</a></li>
+          <li><a href="./category/suspense-action.html">悬疑动作</a></li>
+          <li><a href="./category/comedy-variety.html">喜剧治愈</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>热门入口</h3>
+        <ul>
+          <li><a href="./ranking.html">热门排行</a></li>
+          <li><a href="./categories.html">全部分类</a></li>
+          <li><a href="./search.html">搜索影片</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>剧集片库</h3>
+        <p>覆盖家庭、年代、都市、悬疑、动作、喜剧、奇幻等多种影视题材。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 经典国产剧场. 保留所有权利。</div>
+  </div>
+</footer>
+  <script src="./assets/js/site.js"></script>
+  <script src="./assets/js/search-index.js"></script>
+  <script src="./assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
